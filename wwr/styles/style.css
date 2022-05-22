@@ -1,23 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Bitter');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    font-family: "Bitter", Helvetica, sans-serif;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    font-family: "Bitter", Helvetica, sans-serif;
 }
 .button-box {
     text-align: center;
 }
 main section {
     text-align: center;
+    font-family: "Bitter", Helvetica, sans-serif;
+}
+#hero-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+#mountains {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 
 body {
     background-color: #33658A;
+    font-family: "Bitter", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #758e4f;
+    font-family: "Bitter", Helvetica, sans-serif;
+    
 }
 nav a:hover {
     background-color: #33658A;
@@ -27,20 +49,31 @@ nav a:hover {
     background-color: #758e4f;
     color: #d9c2a3;
     text-decoration: none;
+    font-family: "Bitter", Helvetica, sans-serif;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #33658A;
     color: #d9c2a3;
+    font-family: "Bitter", Helvetica, sans-serif;
 }
 #background {
     background-color: #33658A;
     height: 725px;
+    font-family: "Bitter", Helvetica, sans-serif;
 } 
 .msg {
     background-color: #33658A;
+    font-family: "Bitter", Helvetica, sans-serif;
+    padding: 35px;
 }
 footer {
     background-color: #33658A;
+    font-family: "Bitter", Helvetica, sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 
@@ -48,37 +81,72 @@ nav a {
     text-align: center;
     color: #d9c2a3;
     text-decoration: none;
+    padding: 35px;
 }
 
 .home-title {
     color: #d9c2a3;
+    font-family: "Cabin";
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #d9c2a3;
+    font-family: "Bitter", Helvetica, sans-serif;
 }
 
 .msg h2 {
     color: #d9c2a3;
+    font-family: "Cabin";
+    line-height: 1.5em;
 }
 .msg p {
     color: #d9c2a3;
+    font-family: "Bitter", Helvetica, sans-serif;
+    padding-bottom: 15px;
 }
 footer h3 {
     text-decoration: underline;
     color: #d9c2a3;
+    font-family: "Bitter", Helvetica, sans-serif;
 }
 footer a {
     text-decoration: none;
     color: #d9c2a3;
+    font-family: "Bitter", Helvetica, sans-serif;
 }
 footer a:hover {
     text-decoration: underline;
     color: #d9c2a3;
+    font-family: "Bitter", Helvetica, sans-serif;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 80px;
+}
+
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
 }

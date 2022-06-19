@@ -261,3 +261,14 @@ main section img {
         margin-top: 25px;
     }
 }
+.rivers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.salmon-river {
+    grid-column: 3;
+    grid-row: 7;
+}
+#salmon {
+    
+}

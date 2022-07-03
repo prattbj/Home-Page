@@ -8,7 +8,7 @@
 
 header {
     background-color: #574ae2;
-    font-family: "Gentium", Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -29,7 +29,7 @@ body {
 }
 footer {
     background-color: #33658A;
-    font-family: "Bitter", Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -45,17 +45,17 @@ nav a {
 footer h3 {
     text-decoration: underline;
     color: #654597;
-    font-family: "Bitter", Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
 }
 footer a {
     text-decoration: none;
     color: #654597;
-    font-family: "Bitter", Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
 }
 footer a:hover {
     text-decoration: underline;
     color: #ab81cd;
-    font-family: "Bitter", Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
 }
 
 h1 {

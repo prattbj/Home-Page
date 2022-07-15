@@ -7,7 +7,7 @@
 }
 
 header {
-    background-color: #574ae2;
+    background-color: #222a68;
     font-family: "Poppins", Helvetica, sans-serif;
     display: grid;
     grid-template-columns: 150px auto;
@@ -18,17 +18,19 @@ nav {
     justify-content: space-around;
 }
 nav a:hover {
-    background-color: #222a68;
+    background-color: #654597;
     color: #ab81cd;
 }
 body {
-    background-color: #222a68;
+    background-color: #574ae2;
     font-family: "Gentium", Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
 footer {
-    background-color: #33658A;
+    position: absolute;
+    top: 100%;
+    background-color: #574ae2;
     font-family: "Poppins", Helvetica, sans-serif;
     padding: 25px 50px;
     margin-top: 200px;
@@ -38,7 +40,7 @@ footer {
 }
 nav a {
     text-align: center;
-    color: #222a68;
+    color: #ab81cd;
     text-decoration: none;
     padding: 35px;
 }
@@ -48,13 +50,15 @@ footer h3 {
     font-family: "Poppins", Helvetica, sans-serif;
 }
 footer a {
+    position: absolute;
+    transform: translateX(1400%) translateY(-25%);
     text-decoration: none;
-    color: #654597;
+    color: #ab81cd;
     font-family: "Poppins", Helvetica, sans-serif;
 }
 footer a:hover {
     text-decoration: underline;
-    color: #ab81cd;
+    color: #654597;
     font-family: "Poppins", Helvetica, sans-serif;
 }
 
@@ -92,6 +96,48 @@ h1 {
     grid-row-start: 1/3;
     
 }
+
+.music1 {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translateX(-250%) translateY(-50%);
+    
+}
+.music2 {
+    position: absolute;
+    top: 50%;
+    left:75%;
+    transform: translateX(-50%) translateY(-68%);
+    
+}
+
+.ice-img {
+    width: 300px;
+    height: 300px;
+}
+.images {
+    display: grid;
+    grid-template-columns: .5fr 1fr .25fr .25fr .25fr .25fr .5fr;
+    grid-template-rows: .25fr .25fr .5fr .5fr;
+}
+.synth {
+    width: 100%;
+    grid-column: 2;
+    grid-row: 2/4;
+}
+.wav2{
+    width: 150%;
+    grid-column: 4/6;
+    grid-row: 3/4;
+}
+
+h4 {
+    grid-column: 1/6;
+    grid-row: 1;
+    text-align: center;
+}
+
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
